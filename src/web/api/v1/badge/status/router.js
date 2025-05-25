@@ -23,8 +23,8 @@ router.get("/api/v1/badge/status-json/:nodeIndex", async (req, res) => {
     if (node.online === true) {
       res.json({
         label: "🚦 Status",
-        message: "Online",
-        color: "#4FC921",
+        message: "dnd",
+        color: "#FF0000",
       });
     } else {
       res.json({
